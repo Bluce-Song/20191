@@ -1,0 +1,21 @@
+linux下：
+$ sqlite3 mydata.db ".dump" | sqlite3 new.db
+win下：
+d:\>sqlite3 mydata.db .dump > mydata.sql
+d:\>sqlite3 new.db < mydata.sql
+d:\>sqlite3 aa.db "pragma integrity_check"
+PRAGMA integrity_check;
+
+lupdate aip.pro -codecfortr utf-8 -ts aipJa.ts
+lrelease aipJa.ts -qm aipJa.qm
+
+ip -details -statistics link show can0
+ifconfig -a
+
+chmod +x 
+mv /mnt/network/Sys.ini /mnt/nandflash/AIP
+mv /mnt/network/Base_File.ini /mnt/nandflash/AIP/ConfFile
+mv /mnt/network/Test_File.ini /mnt/nandflash/AIP/configure
+reboot
+
+./cansend can0 --identifier=

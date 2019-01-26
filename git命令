@@ -1,0 +1,9 @@
+git config --global user.name 'Bluce-Song'
+
+git config --global user.email 'songliang008@163.com'
+
+git init
+git add -A
+git commit -m "Initial commit"
+git remote add origin https://github.com/Bluce-Song/2020.git
+git push -u origin master

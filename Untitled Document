@@ -1,0 +1,1 @@
+./configure --host=arm-linux  libsocketcan_LIBS="-L/home/yisaitong/tools/libsocketcan-0.0.11/src/.libs -lsocketcan" libsocketcan_CFLAGS="-I/home/yisaitong/tools/libsocketcan-0.0.10/include" CFLAGS="-I/home/yisaitong/tools/libsocketcan-0.0.10/include"
